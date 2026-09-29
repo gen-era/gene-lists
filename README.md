@@ -1,7 +1,9 @@
-# SOPHiA DDM Clinical Exome Solution v3 (CES v3) Gen Listesi
+# Gen Era Gen Listeleri
 
-SOPHiA DDM Clinical Exome Solution v3 panelinde hedeflenen protein kodlayan genler (5055 gen), HGNC güncel gen adlarıyla.
+Gen Era Diagnostik panellerinde hedeflenen genler, HGNC güncel gen adlarıyla. Her panel kendi klasöründe.
 
-Sayfa: https://gen-era.github.io/ces-gene-list/
+Sayfa: https://gen-era.github.io/gene-lists/
 
-Düz metin liste: [genes.txt](genes.txt)
+| Panel | Sayfa | Düz metin |
+|---|---|---|
+| SOPHiA DDM Clinical Exome Solution v3 (CES v3), 5055 gen | [ces/](https://gen-era.github.io/gene-lists/ces/) | [ces/genes.txt](ces/genes.txt) |
