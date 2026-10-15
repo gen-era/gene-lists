@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SOPHiA DDM Hereditary Cancer Solution v2 Gen Listesi</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOPHiA DDM Hereditary Cancer Solution v2 Gene List</title>
 <style>
 :root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--line:#ddd}
 @media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--muted:#aaa;--line:#333}}
@@ -12,10 +12,10 @@ ul{list-style:none;padding:0;margin:16px 0;columns:6 120px;column-gap:16px}
 li{padding:2px 0;font-family:ui-monospace,Menlo,monospace;font-size:.9rem;break-inside:avoid}
 #n{color:var(--muted);font-size:.9rem;margin-top:8px}
 </style></head><body><main>
-<h1>SOPHiA DDM Hereditary Cancer Solution v2 (HCS v2) Gen Listesi</h1>
-<p>Gen Era Diagnostik. SOPHiA DDM kit kapsamındaki tüm genler. Düz metin liste: <a href="genes.txt">genes.txt</a></p>
-<input id="q" placeholder="Gen ara (ör. BRCA1)" autocomplete="off">
-<div id="n">83 gen</div>
+<h1>SOPHiA DDM Hereditary Cancer Solution v2 (HCS v2) Gene List</h1>
+<p>Gen Era Diagnostics. All genes covered by the SOPHiA DDM kit. Plain text list: <a href="genes.txt">genes.txt</a></p>
+<input id="q" placeholder="Search gene (e.g. BRCA1)" autocomplete="off">
+<div id="n">83 genes</div>
 <ul id="l">
 <li>ABRAXAS1</li>
 <li>AIP</li>
@@ -103,5 +103,5 @@ li{padding:2px 0;font-family:ui-monospace,Menlo,monospace;font-size:.9rem;break-
 </ul></main>
 <script>
 const q=document.getElementById('q'),li=[...document.querySelectorAll('#l li')],n=document.getElementById('n');
-q.addEventListener('input',()=>{const v=q.value.trim().toUpperCase();let c=0;li.forEach(e=>{const s=!v||e.textContent.includes(v);e.style.display=s?'':'none';if(s)c++});n.textContent=c+' gen'});
+q.addEventListener('input',()=>{const v=q.value.trim().toUpperCase();let c=0;li.forEach(e=>{const s=!v||e.textContent.includes(v);e.style.display=s?'':'none';if(s)c++});n.textContent=c+(c===1?' gene':' genes')});
 </script></body></html>

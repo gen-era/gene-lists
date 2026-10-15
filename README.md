@@ -1,10 +1,10 @@
-# Gen Era Gen Listeleri
+# Gen Era Gene Lists
 
-Gen Era Diagnostik panellerinin gen listeleri. Her panel kendi klasöründe.
+Gene lists of Gen Era Diagnostics panels. Each panel has its own folder.
 
-Sayfa: https://gen-era.github.io/gene-lists/
+Page: https://gen-era.github.io/gene-lists/
 
-| Panel | Sayfa | Düz metin |
+| Panel | Page | Plain text |
 |---|---|---|
-| SOPHiA DDM Clinical Exome Solution v3 (CES v3), 6380 gen | [ces/](https://gen-era.github.io/gene-lists/ces/) | [ces/genes.txt](ces/genes.txt) |
-| SOPHiA DDM Hereditary Cancer Solution v2 (HCS v2), 83 gen | [hcs/](https://gen-era.github.io/gene-lists/hcs/) | [hcs/genes.txt](hcs/genes.txt) |
+| SOPHiA DDM Clinical Exome Solution v3 (CES v3), 6380 genes | [ces/](https://gen-era.github.io/gene-lists/ces/) | [ces/genes.txt](ces/genes.txt) |
+| SOPHiA DDM Hereditary Cancer Solution v2 (HCS v2), 83 genes | [hcs/](https://gen-era.github.io/gene-lists/hcs/) | [hcs/genes.txt](hcs/genes.txt) |
