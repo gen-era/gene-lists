@@ -7,3 +7,4 @@ Sayfa: https://gen-era.github.io/gene-lists/
 | Panel | Sayfa | Düz metin |
 |---|---|---|
 | SOPHiA DDM Clinical Exome Solution v3 (CES v3), 6380 gen | [ces/](https://gen-era.github.io/gene-lists/ces/) | [ces/genes.txt](ces/genes.txt) |
+| SOPHiA DDM Hereditary Cancer Solution v2 (HCS v2), 83 gen | [hcs/](https://gen-era.github.io/gene-lists/hcs/) | [hcs/genes.txt](hcs/genes.txt) |
